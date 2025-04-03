@@ -1,0 +1,92 @@
+@keyframes fadeIn {
+from {
+  opacity: 0;
+  transform: translateY(20px);
+}
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+.card-container .card {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+.card-container.show-all .card {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+  
+.examName {
+    position: absolute;
+    width: 519px;
+    /* Adjust the height to fit the content */
+    font-size: 40px;
+    color: #1D4645;
+    line-height: 64px;
+    top: 2328px;
+    left: 141px;
+    /* Add padding to accommodate the content */
+    padding: 10px;
+    /* Use min-height to ensure it grows with content */
+    min-height: 100px; /* Adjust this value as necessary */
+}
+
+.heading2 {
+    margin: 0; /* Remove default margin from h2 */
+}
+
+.explorebtn {
+    position: absolute;
+    width: 170px;
+    height: 48px;
+    border: 1px solid #1D4645;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: white;
+    color: #1D4645;
+   top: 2360px;
+   left: 1141px;
+}
+.bscModel{
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    background-color: #102F2E;
+    border: 1px solid #1D4645;
+    border-radius: 4px;
+    top: 2536px;
+    left: 141px;
+    width: 770px;
+    height: 416px;
+}
+.modelHeading{
+    position: absolute;
+    color: white;
+    top: 30px;
+    left: 37px;
+    
+}
+.modelDetail{
+    position: absolute;
+    top: 100px;
+    left: 37px;
+    width: 401px;
+    height: 168px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #D2D2D2;
+    text-align: justify;
+}
+.math{
+    position: absolute;
+    top: 2984px;
+}
+.modelImage{
+    width: 311px;
+    height: 417px;
+}

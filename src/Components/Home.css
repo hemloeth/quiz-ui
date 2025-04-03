@@ -1,0 +1,187 @@
+/* Home.css */
+
+.main {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  font-size: 72px;
+  left: 135px;
+  top: 150px;
+  width: 483px;
+  height: 240px;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 80px;
+  color: #1D4645;
+}
+
+.para {
+  font-size: 25px; /* Adjust as needed */
+  width: 470px;
+  height: 37px;
+  left: 135px;
+  top: 300px;
+  color: #1D4645;
+}
+
+.quiz-show {
+  position: absolute;
+  left: 599px;
+  top: 127px;
+  width: 782px;
+  height: 609px;
+}
+
+.playbtn {
+  position: absolute;
+  border-radius: 8px;
+  background-color: #E8C5B0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1D4645;
+  width: 170px;
+  height: 48px;
+  top: 400px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .text {
+      font-size: 64px;
+      left: 100px;
+      top: 120px;
+      width: 400px;
+      height: 200px;
+  }
+
+  .heading {
+      font-size: 60px;
+  }
+
+  .para {
+      font-size: 22px;
+      width: 400px;
+      left: 100px;
+      top: 280px;
+  }
+
+  .quiz-show {
+      left: 500px;
+      top: 100px;
+      width: 600px;
+      height: 500px;
+  }
+
+  .playbtn {
+      width: 150px;
+      height: 40px;
+      top: 380px;
+  }
+}
+
+@media (max-width: 992px) {
+  .text {
+      font-size: 56px;
+      left: 80px;
+      top: 100px;
+      width: 350px;
+      height: 180px;
+  }
+
+  .heading {
+      font-size: 55px;
+  }
+
+  .para {
+      font-size: 20px;
+      width: 350px;
+      left: 80px;
+      top: 260px;
+  }
+
+  .quiz-show {
+      left: 400px;
+      top: 80px;
+      width: 500px;
+      height: 400px;
+  }
+
+  .playbtn {
+      width: 130px;
+      height: 36px;
+      top: 360px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text {
+      font-size: 48px;
+      left: 50px;
+      top: 80px;
+      width: 300px;
+      height: 160px;
+  }
+
+  .heading {
+      font-size: 50px;
+  }
+
+  .para {
+      font-size: 18px;
+      width: 300px;
+      left: 50px;
+      top: 240px;
+  }
+
+  .quiz-show {
+      left: 300px;
+      top: 60px;
+      width: 400px;
+      height: 300px;
+  }
+
+  .playbtn {
+      width: 120px;
+      height: 32px;
+      top: 340px;
+  }
+}
+
+@media (max-width: 576px) {
+  .text {
+      font-size: 40px;
+      left: 20px;
+      top: 60px;
+      width: 250px;
+      height: 140px;
+  }
+
+  .heading {
+      font-size: 45px;
+  }
+
+  .para {
+      font-size: 16px;
+      width: 250px;
+      left: 20px;
+      top: 220px;
+  }
+
+  .quiz-show {
+      left: 200px;
+      top: 40px;
+      width: 300px;
+      height: 200px;
+  }
+
+  .playbtn {
+      width: 110px;
+      height: 28px;
+      top: 320px;
+  }
+}

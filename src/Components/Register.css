@@ -1,0 +1,73 @@
+
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(29, 71, 68);
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%; /* Position in the middle vertically */
+    left: 50%; /* Position in the middle horizontally */
+    transform: translate(-50%, -50%); /* Move up and left by 50% of its own width and height */
+}
+
+
+.in-field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.in-field label{
+    color:  rgb(29,71,68);
+    margin-bottom: 0px;
+}
+
+.in-field input{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(29,71,68);
+    outline: none;
+    width: 250px;
+    color: rgba(29, 71, 68, 0.638);
+    
+
+}
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    background-color: rgb(29,71,68);
+    color: white;
+}
+.welcome-heading {
+    font-size: 35px;
+    position: relative;
+    color:  rgb(29,71,68);
+}
+
+
+.sort-heading {
+    font-size: 15px;
+    position: absolute;
+    top: 25%; /* Position in the middle vertically */
+    left: 50%; /* Position in the middle horizontally */
+    transform: translate(-50%, 50%); /* Move up by 50% of its own height */
+    margin-top: -5px; /* Adjust this value to control the gap */
+    color: rgba(29, 71, 68, 0.638);
+}
+
+input::placeholder {
+    color: rgba(29, 71, 68, 0.638);
+}
+.heainds-resgiter{
+    margin-top: 0px;
+    border-radius: 1px solid red;
+}

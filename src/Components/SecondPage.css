@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.SecondPage{
+    position: relative;
+    left: 0px;
+    top: 880px;
+    height: 688px;
+    width: 100%;
+    background-color: #1D4645;
+    
+}
+
+
+.play{
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    top: 20px;
+    left: 147px;
+    font-size: 50px;
+    width: 376px;
+    height: 64px;
+}
+.step1{
+    position: absolute;
+    background-color: whitesmoke;
+    border: 2px solid #F1D7C8;
+    border-radius: 8px;
+    width: 370px;
+    height: 432px;
+    top: 289px;
+    left: 147px;
+}
+.step2{
+    background-color: whitesmoke;
+    position: absolute;
+    border: 2px solid #F1D7C8;
+    border-radius: 8px;
+    width: 370px;
+    height: 432px;
+    top: 225px;
+    left: 547px;
+}
+.step3{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    position: absolute;
+    border: 2px solid #F1D7C8;
+    width: 370px;
+    height: 432px;
+    top: 161px;
+    left: 947px;
+}
+.step4{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    position: absolute;
+    border: 2px solid #F1D7C8;
+    width: 370px;
+    height: 432px;
+    top: 849px;
+    left: 178px;
+}
+.step5{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    position: absolute;
+    border: 2px solid #F1D7C8;
+    width: 370px;
+    height: 432px;
+    top: 783px;
+    left: 578px;
+}
+.step6{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    position: absolute;
+    border: 2px solid #F1D7C8;
+    width: 370px;
+    height: 432px;
+    top: 721px;
+    left: 978px;
+}
+
+.h4{
+    left: 195px;
+    top: 603px;
+    color: #1D4645;
+}
+.first{
+    padding-left: 17px;
+    padding-top: 18px;
+    padding-right: 17px;
+}
+
+.second{
+    padding-left: 17px;
+    padding-top: 18px;
+    padding-right: 17px;
+}
+.third{
+    padding-left: 17px;
+    padding-top: 18px;
+    padding-right: 17px;
+}
+.four{
+    padding-left: 17px;
+    padding-top: 18px;
+    padding-right: 17px;
+}
+.five{
+    padding-left: 17px;
+    padding-top: 18px;
+    padding-right: 17px;
+}
+.six{
+    padding-left: 17px;
+    padding-top: 18px;
+    padding-right: 17px;
+}

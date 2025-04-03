@@ -1,0 +1,12 @@
+/* Heading.css */
+
+.logo {
+  position: absolute;
+  left: 44px;
+  top: 25px;
+}
+
+.quiz-logo {
+  width: 109px;
+  height: 124px;
+}

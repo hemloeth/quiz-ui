@@ -1,0 +1,108 @@
+.footer-page {
+    position: absolute;
+    left: 0px;
+    top: 500px;
+    width: 100%;
+    height: 800px;
+    background-color: #1D4645;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0; /* Adjust as needed */
+    z-index: -10;
+}
+.footer-style-image{
+    position: absolute;
+    top: 0px;
+}
+.footer-logo{
+    position: absolute;
+    top: 453px;
+    left: 93px;
+}
+.menu-detail{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    top: 521px;
+    left: 435px;
+
+}
+.custom-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-h4{
+    font-size: 18px;
+    word-spacing: 3px;
+    color: #E8C5B0;
+    font-family: 'Commissioner', sans-serif;
+
+
+}
+
+.custom-list li{
+    line-height: 32px;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.services-detail{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    left: 735px;
+    top: 521px;
+}
+.social-links{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #E8C5B0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1035px;
+    top: 521px;
+}
+.insta-links{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #E8C5B0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1091px;
+    top: 521px;
+}
+.line{
+    width: 1170px;
+    height: 0.1px;
+    border: 0.1px solid #245856;
+    position: absolute;
+    top: 768px;
+
+}
+.privacy-policy{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 810px;
+    justify-content: space-around;
+}
+.polciy{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}

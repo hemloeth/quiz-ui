@@ -1,0 +1,86 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    color: #1D4645;
+    font-size: 26px;
+    line-height: 41px;
+    font-weight: bold;
+    width: 370px;
+    height: 416px;
+    border-color: #FFF2E6;
+    background-color: #FFF2E6;
+    border: 1px solid #FFF2E6;
+    border-radius: 4px;
+    position: absolute;
+    top: 2536px;
+    left: 941px;
+}
+
+.Bank-card {
+    background-color: #102F2E;
+    color: white;
+    top: 2984px;
+    left: 141px;
+}
+
+.math-card {
+    top: 2984px;
+    left: 541px;
+}
+
+.chem-card {
+    background-color: #102F2E;
+    color: white;
+    top: 2984px;
+    left: 941px;
+}
+
+.card-image {
+    width: 120PX;
+    height: 120PX;
+    margin-bottom: 16px; /* Space between image and text */
+}
+
+.card-text {
+    text-align: center;
+    padding: 16px;
+}
+
+.html-img {
+    width: 120PX;
+    height: 120PX;
+    mix-blend-mode: multiply;
+}
+
+.html-card {
+    top: 3432px;
+    left: 141px;
+}
+
+.css-card {
+    background-color: #102F2E;
+    color: white;
+    top: 3432px;
+    left: 541px;
+}
+
+.css-img {
+    width: 120PX;
+    height: 120PX;
+    border-radius: 50%;
+}
+
+.js-card {
+    top: 3432px;
+    left: 941px;
+}
+
+.js-img {
+    border-radius: 50%;
+    width: 120PX;
+    height: 120PX;
+    mix-blend-mode: multiply;
+}

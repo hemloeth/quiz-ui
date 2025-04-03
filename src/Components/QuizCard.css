@@ -1,0 +1,84 @@
+.Math-size{
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 3770px;
+    left: 135px;
+    width: 470px;
+    height: 352px;
+    background-color: #FFF2E6;
+    border-radius: 4px;
+}
+.English-size{
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 3866px;
+    left: 635px;
+    width: 370px;
+    height: 352px;
+    background-color: #FFF2E6;
+    border-radius: 4px;
+}
+.Science-size{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: absolute;
+    top: 4154px;
+    left: 335px;
+    width: 270px;
+    height: 352px;
+}
+.Bangla-size{
+    background-color: #FFF2E6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: absolute;
+    top: 4250px;
+    left: 635px;
+    width: 270px;
+    height: 320px;
+}
+.General-size{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: absolute;
+    top: 4250px;
+    left: 935px;
+    width: 370px;
+    height: 352px;
+}
+.quiz-image{
+    position: absolute;
+    top: 32px;
+    left: 44px;
+    width: 76px;
+    height: 76px;
+    
+
+}
+.quiz-title{
+    position: absolute;
+    top: 100px;
+    left: 32px;
+
+}
+.quiz-text{
+    position: absolute;
+    top: 160px;
+    left: 32px;
+    text-align: justify;
+}
+.quizImage-container {
+    position: absolute;
+    width: 100px;          /* Set the width of the container */
+    height: 100px;         /* Set the height of the container */
+    background-color: black; /* Set the background color to black */
+    color: white;          /* Optional: Set text color to white for better visibility */
+    border-radius: 50%;    /* Make the container circular */
+    display: flex;         /* Center the content horizontally and vertically */
+    justify-content: center; 
+    align-items: center;
+}
+  
+  
